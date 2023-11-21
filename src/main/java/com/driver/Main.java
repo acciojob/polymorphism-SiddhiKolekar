@@ -4,9 +4,12 @@ public class Main {
     public static void main(String args[]){
         Product p = new Product();
         int ans = p.Product(10,20);
+        System.out.println(ans);
         int ans1 = p.Product(10,20,30);
+        System.out.println(ans1);
         double ans2 = p.Product(10.0,20.0);
-        System.out.println(ans+" "+ans1+" "+ans2);
+        System.out.println(ans2);
+       // System.out.println(ans+" "+ans1+" "+ans2);
     }
     public static class Product{
     public int Product(int x, int y){
